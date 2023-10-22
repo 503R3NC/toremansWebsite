@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #333;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	background-color: #800080;
+	color: #fff;
+	padding: 20px;
+	position: relative;
+}
+
+	header img {
+		height: 80px;
+		margin-right: 10px;
+	}
+
+	header h1 {
+		margin: 0;
+		font-size: 36px;
+		line-height: 1.2;
+		color: #fff;
+		margin-left: 20px;
+	}
+
+	nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	nav li {
+		margin: 0 10px;
+	}
+
+	nav a {
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 18px;
+		transition: all 0.2s ease;
+	}
+
+		nav a:hover {
+			color: violet;
+		}
+
+main {
+	margin: 20px auto; /* Set margin to have equal vertical and horizontal spacing */
+	width: calc(75%);
+}
+
+	main h2 {
+		text-align: center; /* Center the content inside the main section */
+		margin-top: 0;
+	}
+
+.main_pic {
+	width: calc(100% - 40px); /* Adjust padding here */
+	margin: 20px;
+}
+
+.ligen {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	.ligen img {
+		height: 200px; /* Adjust the height as desired */
+		width: auto;
+		flex-grow: 1;
+		margin: 0 50px; /* Adjust the margin spacing as desired */
+	}
+
+
+footer {
+	background-color: #800080;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+	footer img {
+		height: 20px;
+		width: auto;
+	}
+
+
