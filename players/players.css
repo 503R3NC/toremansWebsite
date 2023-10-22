@@ -129,13 +129,13 @@ main {
     }
 
     .back th {
-        font-size: 1.5vh;
+        font-size: 1.5vw;
         font-weight: 200;
     }
 
     .back td {
         text-align: left;
-        font-size: 1.5vh;
+        font-size: 1.5vw;
         font-weight: 800;
     }
 
@@ -148,7 +148,7 @@ main {
         }
 
     .back h2 {
-        font-size: 1.5vh;
+        font-size: 1.5vw;
         position: absolute;
         bottom: 0;
         transform: translateY(60%);
@@ -160,14 +160,14 @@ main {
     bottom: 0;
     transform: translateY(60%);
     right: 3%;
-    font-size: 1.5vh;
+    font-size: 1.5vw;
 }
 
 .front_number {
     position: absolute;
     top: 0px;
     left: 3%;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 }
 
 
