@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background: #333;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+    header img {
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+        line-height: 1.2;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.2s ease;
+}
+
+    nav a:hover {
+        color: violet;
+    }
+
+main {
+    margin: auto; /* Set margin to have equal vertical and horizontal spacing */
+    width: calc(75%);
+}
+
+    main h2 {
+        margin-top: 0;
+    }
+
+.players {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main_container {
+    position: relative;
+    width: 12.5vw;
+    height: 18.75vw;
+    margin:10px;
+}
+
+.card {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+    .card:hover {
+        transform: rotateY(180deg);
+    }
+
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ff0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    .front img {
+        width: 100%;
+        height: auto;
+    }
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #000000;
+    transform: rotateY(180deg);
+    display: flex;
+}
+
+    .back table {
+        width: 100%;
+        height: 50%;
+    }
+
+    .back tr {
+        height: calc(50%/2);
+    }
+
+    .back th {
+        font-size: 3vh;
+        font-weight: 200;
+    }
+
+    .back td {
+        text-align: left;
+        font-size: 3vh;
+        font-weight: 800;
+    }
+
+        .back td p {
+            position: relative;
+            top: -15%;
+            font-size: 50%;
+            color: #444;
+            font-weight: 200;
+        }
+
+    .back h2 {
+        font-size: 3vh;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(60%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.front_name {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(60%);
+    right: 3%;
+    font-size: 3vh;
+}
+
+.front_number {
+    position: absolute;
+    top: 0px;
+    left: 3%;
+    font-size: 7vh;
+}
+
+
+footer {
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    footer img {
+        height: 20px;
+        width: auto;
+    }
