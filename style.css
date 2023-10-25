@@ -70,6 +70,7 @@ main h2{
 /* Slideshow container */
 .slideshow-container {
   max-width: 40%;
+  min-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -82,6 +83,7 @@ main h2{
   .mySlides img {
     height: auto; /* Adjust the height as desired */
     width: 40%;
+    min-width: 400px;
   }
 
 
@@ -161,6 +163,7 @@ main h2{
 
 .lower_articles{
     max-width: 40%;
+    min-width: 400px;
     position: relative;
     margin: auto;
     display: flex;
@@ -196,6 +199,7 @@ main h2{
 }
 
 .form{
+  min-width: 400px;
   max-width: 40%;
   position: relative;
   margin: auto;
