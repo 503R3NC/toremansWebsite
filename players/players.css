@@ -76,6 +76,14 @@ main {
     justify-content: flex-start;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  .fade-in.active {
+    opacity: 1;
+  }
+
 .main_container {
     position: relative;
     width: 12.5vw;
