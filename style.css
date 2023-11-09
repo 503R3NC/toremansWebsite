@@ -257,4 +257,54 @@ footer {
 		height: 20px;
 		width: auto;
 	}
-  
+
+  @media (max-width: 1000px) {
+    /* Your CSS rules for smaller screens here */
+    .slideshow-container {
+      max-width: 100vw;
+    }
+
+    .mySlides img {
+      width: 100vw;
+    }
+
+    .form{
+      max-width: 100vw;
+    }
+
+    .lower_articles{
+      max-width: 100vw;
+  }
+
+  .lower_articles img{
+    width: 47vw;
+  }
+
+  .ligen img {
+    height: 10vh; /* Adjust the height as desired */
+    width: auto;
+  }
+
+  body {
+    font-size: 11px;
+  }
+
+  header img {
+		height: 12vh;
+	}
+
+  header h1 {
+		font-size: 18px;
+	}
+
+  nav a {
+		font-size: 13px;
+	}
+  input[type=submit] {
+    font-size: 11px;
+  }
+
+  .row label{
+    font-size: 11px;
+  }
+}
